@@ -4,7 +4,7 @@ import { style } from '../../style'
 export default function Blogs() {
 	const redirect = useNavigation()
 	const { id } = useParams()
-	console.log(parseSearchParams())
+	console.log(parseSearchParams(), useParams())
 	return (
 		<div
 			style={style({ background: '#d06cff' })}
